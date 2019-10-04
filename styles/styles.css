@@ -1,8 +1,32 @@
 body {
-  background-color: violet;
-  font-family: sans-serif;
+    background-color: lightsteelblue;
+    font-family: sans-serif;
 }
 
 h1 {
-  color: darkblue;
+    text-align: center;
+    outline: 0.159rem solid black;
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    margin: 5rem;
+    height: 50px;
+    width: 240px;
 }
+
+h2 {
+    outline: 0.159rem solid black;
+    height: 30px;
+    width: 140px;
+    text-align: center;
+    background-color: sandybrown;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    margin: 5rem;
+}
+
+dt {
+    margin: 1rem;
+    font-weight: 1000;
+
+}
+
+
