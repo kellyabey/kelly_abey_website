@@ -41,8 +41,10 @@ dt {
 
 table,
 td {
-    border:1px solid #333;
+    border:2px solid #333;
     color: #000000;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    background-color: sandybrown;
 
 }
 a:hover {
@@ -51,5 +53,5 @@ a:hover {
 }
 th {
     color: black;
-    text-shadow: white 2px 5px;
+
 }
