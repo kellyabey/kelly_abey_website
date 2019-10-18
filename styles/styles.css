@@ -27,7 +27,7 @@ h3 {
     outline: 0.159rem solid black;
     height: 30px;
     width: 240px;
-    background-color: sandybrown;
+    background: radial-gradient(closest-side, #3f87a6, #ebf8e1, #f69d3c);
     box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
     margin: 5rem;
     text-align: center;
@@ -44,14 +44,39 @@ td {
     border:2px solid #333;
     color: #000000;
     box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
-    background-color: sandybrown;
-
+    background: sandybrown;
+}
+th {
+    text-align: center;
 }
 a:hover {
     text-decoration-color: underline;
-    color: rosybrown;
+    color: lightcoral;
 }
-th {
-    color: black;
 
+td:hover {
+    background-color: lightcoral;
 }
+
+.right {
+    float: right;
+}
+
+@keyframes spin{
+    from {
+        transform: rotateY(0);
+    }
+    to {
+        transform: rotateY(1turn);
+    }
+}
+
+.card {
+    animation: spin 5s ease;
+    animation-iteration-count: infinite;
+}
+
+.container {
+    perspective: 1000px;
+}
+
